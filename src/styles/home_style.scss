@@ -1,0 +1,107 @@
+.home {
+    .carrusel-preset {
+        width: 100%;
+        height: 100vh;
+    }
+    .god-back{
+        background: url('https://cdn.discordapp.com/attachments/370170882087190540/958753954718683206/Prueba.png');
+        background-position: bottom 65px right 0px;
+        background-size: cover;
+    }
+
+    .god-front{
+        background: url('https://cdn.discordapp.com/attachments/370170882087190540/958764650076471296/Prueba2.png');
+        background-position: bottom 65px right 0px;
+        background-size: cover;
+    }
+
+    .gachapon-back{
+        background: url('https://media.discordapp.net/attachments/370170882087190540/958768767977013298/Prueba4.png');
+        background-position: bottom 65px right 0px;
+        background-size: cover;
+    }
+
+    .gachapon-front {
+        background: url('https://cdn.discordapp.com/attachments/370170882087190540/958765457513529404/Prueba3.png');
+        background-position: bottom 65px right 0px;
+        background-size: cover;
+    }
+
+    .pin-back {
+        background: url('https://media.discordapp.net/attachments/370170882087190540/958769192407035944/Prueba5.png');
+        background-position: bottom 65px right 0px;
+        background-size: cover;
+    }
+
+    .pin-front {
+        background: url('https://media.discordapp.net/attachments/370170882087190540/958769191719157811/Prueba6.png');
+        background-position: bottom 65px right 0px;
+        background-size: cover;
+    }
+
+  
+
+    
+
+    .call-to-action{
+        background: black;
+        font-size: 40px;
+        font-family: 'PuncRegular';
+        border: none;
+        color: white;
+        position: relative;
+        padding: 20px 30px 10px 30px;
+        box-shadow: 5px 5px 1px white;
+        top: 40%;
+        left: 30%;
+        transition: all 0.2s linear;
+        cursor: pointer;
+        // border-radius: 45px;
+    }
+
+    .call-to-action:hover{
+        box-shadow: 8px 8px 1px black;
+        color: black;
+        background: white;
+    }
+    
+    div {
+        width: 100%;
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home {
+        .carrusel-preset {
+            width: 100%;
+            height: 100vh;
+        }
+    
+        .god-back{
+            background: url('https://media.discordapp.net/attachments/370170882087190540/958773568093691934/Movil2.png');
+            background-position: bottom 40px right -40px;
+            background-size: 120%;
+        }
+    
+        .gachapon-back{
+            background: url('https://media.discordapp.net/attachments/370170882087190540/958773566470504468/Movil3.png');
+            background-position: top -130px right -100px;
+            background-size: 150%;
+        }
+    
+        .pin-back {
+            background: url('https://media.discordapp.net/attachments/370170882087190540/958773567292575834/Movil1.png');
+            background-position: bottom 40px right -40px;
+            background-size: 120%;
+        }
+
+        .call-to-action{
+            font-size: 35px;
+            top: 60%;
+            right: 0%;
+            left: 0%;
+        }
+    }
+
+}

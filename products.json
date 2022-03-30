@@ -1,0 +1,20 @@
+{
+    "camiseta1": {
+        "name" : "camiseta1",
+        "price" : 0,
+        "PrimaryPhotos": [""],
+        "redPhoto": "",
+        "bluePhoto": "",
+        "greenPhoto": "",
+        "type": "camiseta",
+        "colors": ["red", "blue", "green"],
+        "sizes": ["M", "L", "XL"],
+        "specs": ""
+
+
+    },
+
+    "camiseta2" : {
+
+    }
+}
