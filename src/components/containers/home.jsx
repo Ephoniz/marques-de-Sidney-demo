@@ -3,6 +3,7 @@ import '../../styles/home_style.scss';
 import { useGlobalContext } from './context';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const {closeSubmenu} = useGlobalContext();
@@ -27,9 +28,9 @@ const Home = () => {
                         <p>SUDADERA</p>
                         <h5>God variety</h5>
 
-                        <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
-                        Detalles
-                        </button>
+                        <Link to="/sudadera/1" className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
+                            Detalles
+                        </Link>
                     </div>
                 </div>
                 <div className={`carrusel-preset ${estilo ? "gachapon-front" : "gachapon-back"}`}>
@@ -37,9 +38,9 @@ const Home = () => {
                         <p>CAMISETA</p>
                         <h5>gachapOn wEy</h5>
 
-                        <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
-                        Detalles
-                        </button>
+                        <Link to="/camiseta" className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
+                            Detalles
+                        </Link>
                     </div>
                 </div>
                 <div className={`carrusel-preset ${estilo ? "pin-front" : "pin-back"}`}>
@@ -48,7 +49,7 @@ const Home = () => {
                         <h5>pEEpopin</h5>
 
                         <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
-                        Detalles
+                            Detalles
                         </button>
                     </div>
                 </div>

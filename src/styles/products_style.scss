@@ -1,0 +1,48 @@
+.sudaderas-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .title {
+        font-size: 50px;
+        font-family: 'PuncRegular';
+        margin-bottom: 20px;
+    }
+}
+
+.sudaderas-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product-card {
+    border: 2px solid black;
+    box-shadow: 10px 10px 1px black;
+    transition: all 0.3s ease;
+
+    a{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    img {
+        transition: all 0.3s ease;
+        border-top: 2px solid black;
+        width: 550px;
+        height: auto;
+    }
+}
+
+.product-card:hover{
+    box-shadow: 7px 7px 1px black;
+
+    a {
+        color: white;
+        background-color: black;
+    }
+}

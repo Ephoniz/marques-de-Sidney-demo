@@ -21,6 +21,12 @@
         }
      }
 
+     .nav-links{
+         margin-right: 0;
+         width: 100%;
+         justify-content: flex-end;
+     }
+
      .nav-center {
          height: 100%;
          display: flex;

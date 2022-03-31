@@ -5,6 +5,8 @@ import Home from './components/containers/home';
 import Layout from './components/containers/layout';
 import Faqs from './components/containers/faqs';
 import Camiseta from './components/containers/camiseta';
+import Sudaderas from './components/containers/sudaderas';
+import Sudadera from './components/containers/sudadera';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
           <Route  path="/" element={<Layout/>}>
             <Route index element={<Home/>}/>
             <Route path='faqs' element={<Faqs/>} />
-            <Route path='camiseta1' element={<Camiseta/>}/>
+            <Route path='camiseta' element={<Camiseta/>}/>
+            <Route path='sudaderas' element={<Sudaderas/>}/>
+            <Route path='/sudadera/:id' element={<Sudadera/>}/>
           </Route>
         </Routes>
       </Router>
