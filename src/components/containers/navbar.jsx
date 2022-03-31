@@ -11,11 +11,16 @@ const Navbar = () => {
     const {openSubmenu, openSidebar, closeSubmenu} = useGlobalContext();
     
     const displaySubmenu = (e) => {
-        const page = e.target.name;
+        const page = capitalize(e.target.name);
         const tempBtn = e.target.getBoundingClientRect();
         const center = (tempBtn.left + tempBtn.right)/ 2;
         const bottom = tempBtn.bottom;
         openSubmenu(page, { center, bottom });
+    }
+
+    const capitalize = (str) => {
+        const lower = str.toLowerCase();
+        return str.charAt(0).toUpperCase() + lower.slice(1);
     }
 
     const handleSubmenu = (e) => {
@@ -38,7 +43,7 @@ const Navbar = () => {
                     </div>
                     <ul className='nav-links'>
                         <li>
-                            <button className='link-btn' name="productos"onMouseOver={displaySubmenu}>
+                            <button className='link-btn' name="productos" onMouseOver={displaySubmenu}>
                                 Productos
                             </button>
                         </li>

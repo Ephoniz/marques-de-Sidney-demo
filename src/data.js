@@ -5,27 +5,21 @@ import React from 'react';
 
 const sublinks = [
   {
-    page: 'productos',
+    page: 'Productos',
     links: [
-      { label: 'camisetas', icon: <IoShirt />, url: '/products' },
-      { label: 'sudaderas', icon: <GiHoodie />, url: '/products' },
-      { label: 'pines', icon: <GiSafetyPin />, url: '/products' },
+      { label: 'Camisetas', icon: <IoShirt />, url: '/camiseta1' },
+      { label: 'Sudaderas', icon: <GiHoodie />, url: '/sudaderas' },
+      { label: 'Pines', icon: <GiSafetyPin />, url: '/pines' },
     ],
   },
   {
-    page: 'developers',
+    page: 'FAQs',
     links: [
-      { label: 'plugins', icon: <FaBook />, url: '/products' },
-      { label: 'libraries', icon: <FaBook />, url: '/products' },
-      { label: 'help', icon: <FaBook />, url: '/products' },
-      { label: 'billing', icon: <FaBook />, url: '/products' },
     ],
   },
   {
-    page: 'company',
+    page: 'About',
     links: [
-      { label: 'about', icon: <FaBriefcase />, url: '/products' },
-      { label: 'customers', icon: <FaBriefcase />, url: '/products' },
     ],
   },
 ];

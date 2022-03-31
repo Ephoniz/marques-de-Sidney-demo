@@ -23,19 +23,34 @@ const Home = () => {
             >
     
                 <div className={`carrusel-preset ${estilo ? "god-front" : "god-back"}`}>
-                    <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
-                    detallEs
-                    </button>
+                    <div className='text-zone'>
+                        <p>SUDADERA</p>
+                        <h5>God variety</h5>
+
+                        <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
+                        Detalles
+                        </button>
+                    </div>
                 </div>
                 <div className={`carrusel-preset ${estilo ? "gachapon-front" : "gachapon-back"}`}>
-                    <button className='call-to-action'onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
-                    detallEs
-                    </button>
+                    <div className='text-zone'>
+                        <p>CAMISETA</p>
+                        <h5>gachapOn wEy</h5>
+
+                        <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
+                        Detalles
+                        </button>
+                    </div>
                 </div>
                 <div className={`carrusel-preset ${estilo ? "pin-front" : "pin-back"}`}>
-                    <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
-                    detallEs
-                    </button>
+                    <div className='text-zone'>
+                        <p>PINES</p>
+                        <h5>pEEpopin</h5>
+
+                        <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
+                        Detalles
+                        </button>
+                    </div>
                 </div>
         </Carousel>
         </section>

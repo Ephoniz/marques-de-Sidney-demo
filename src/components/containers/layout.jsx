@@ -7,15 +7,14 @@ import { AppProvider } from './context';
 import Submenu from './submenu';
 import Footer from './footer';
 
-const Layout = () => {
+const Layout = () => {    
     return (
         <div>
         <AppProvider>
             <Navbar/>
             <Marquee>
-                Locoooooooo, me cago en la madre que me pariooo 
-                DIOSSS tercero del mundoooo 
-                GOOOD CABRON
+                Buenas a todos chicos, qué tal, cómo estáis, bienvenidos a una nueva comprita aquí on my shop · 
+                Buenas a todos chicos, qué tal, cómo estáis, bienvenidos a una nueva comprita aquí on my shop ·&nbsp;
             </Marquee>
             <Sidebar/>
             <Submenu/>

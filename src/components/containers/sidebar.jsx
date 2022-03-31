@@ -3,6 +3,7 @@ import '../../styles/sidebar_styles.scss';
 import { FaTimes } from 'react-icons/fa';
 import sublinks from '../../data';
 import { useGlobalContext } from './context';
+import { ReactComponent as Logo } from '../../assets/Marques_de_Sidney_-_Logo-03.svg';
 
 const Sidebar = () => {
     const{ isSidebarOpen, closeSidebar } = useGlobalContext();
@@ -24,7 +25,7 @@ const Sidebar = () => {
                                         const{ url, icon, label } = link;
                                         return <a href={url} key={index}>
                                             {icon}
-                                            {label}
+                                            <p>{label}</p>
                                         </a>
                                     })}
                                 </div>
@@ -32,6 +33,7 @@ const Sidebar = () => {
                         })
                     }
                 </div>
+                <Logo className='logo-watermark'/>
             </div>
         </aside>
     );

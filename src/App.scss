@@ -2,3 +2,41 @@
     font-family: 'PuncRegular';
     src: local('PuncRegular'), url('./assets/fonts/Punc-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: locla('Helvetica Neue'), url('./assets/fonts/Helvetica\ Neue\ UltraLight.otf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: locla('Helvetica Neue'), url('./assets/fonts/Helvetica\ Neue\ Medium\ Extended.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./assets/fonts/NeueMontreal-Regular.otf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./assets/fonts/NeueMontreal-Light.otf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./assets/fonts/NeueMontreal-Medium.otf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./assets/fonts/NeueMontreal-Bold.otf') format('truetype');
+    font-weight: 800;
+}

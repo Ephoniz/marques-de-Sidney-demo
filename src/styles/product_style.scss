@@ -1,0 +1,92 @@
+.product-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clothe-container{
+    width: 20%;
+    height: 15%;
+    margin-right: 200px;
+    margin-top: 2%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .size-description {
+        width: 400px;
+        height: auto;
+    }
+}
+
+.sizes-container {
+    display: flex;
+}
+
+.colors-container {
+    display: flex;
+
+    .red{
+        background: red;
+    }
+    
+    .green{
+        background: green;
+    }
+
+    .blue{
+        background: blue;
+    }
+
+    svg {
+        opacity: 0;
+        padding-top: 4px;
+    }
+}
+
+label.coolbox {
+    background: white;
+    border: 2px solid black;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:35px;
+    height:30px;
+    font-weight: 400;
+    font-size:20px;
+    cursor: pointer;
+
+    input {
+        display: none;
+    }
+
+    span {
+        color: black;
+    }
+
+    input:checked + span {
+        font-weight: 800;
+    }
+
+    input:checked + svg {
+        opacity: 1;
+    }
+}
+
+label.coolbox:hover {
+    background: black;
+    
+    span {
+        color: white
+    }
+}
