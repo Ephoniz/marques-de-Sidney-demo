@@ -1,6 +1,5 @@
 .sidebar-wrapper {
     display: none;
-    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 800px) {
@@ -15,7 +14,6 @@
         width: 100%;
         visibility: hidden;
         font-family: 'Neue Montreal';
-        transition: all 0.3s ease;
 
         article {
             display: flex;

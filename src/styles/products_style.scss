@@ -46,3 +46,22 @@
         background-color: black;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .sudaderas-cards {
+        width: 85%;
+        flex-direction: column;
+        margin-bottom: 30%;
+
+        .product-card {
+            margin-bottom: 8%;
+        }
+
+        img {
+            width: 100%;
+        }
+        
+    }
+
+
+}

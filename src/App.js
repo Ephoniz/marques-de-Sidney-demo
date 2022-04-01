@@ -7,6 +7,7 @@ import Faqs from './components/containers/faqs';
 import Camiseta from './components/containers/camiseta';
 import Sudaderas from './components/containers/sudaderas';
 import Sudadera from './components/containers/sudadera';
+import About from './components/containers/about';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='camiseta' element={<Camiseta/>}/>
             <Route path='sudaderas' element={<Sudaderas/>}/>
             <Route path='/sudadera/:id' element={<Sudadera/>}/>
+            <Route path='about' element={<About/>}/>
           </Route>
         </Routes>
       </Router>

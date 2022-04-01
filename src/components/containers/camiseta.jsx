@@ -13,7 +13,7 @@ const Camiseta = () => {
     return (
         <section className='product-page' onMouseOver={closeSubmenu}>
             <div className='clothe-container'>
-                <Carousel infiniteLoop={true} autoPlay={true}>
+                <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false} showStatus={false}>
                     {PrimaryPhotos.map((link) => {
                         return <ImageZoom src={link} alt="camiseta" zoom="250"/>;
                     })}

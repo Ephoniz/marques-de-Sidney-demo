@@ -7,7 +7,7 @@ const sublinks = [
   {
     page: 'Productos',
     links: [
-      { label: 'Camisetas', icon: <IoShirt />, url: '/camiseta1' },
+      { label: 'Camisetas', icon: <IoShirt />, url: '/camiseta' },
       { label: 'Sudaderas', icon: <GiHoodie />, url: '/sudaderas' },
       { label: 'Pines', icon: <GiSafetyPin />, url: '/pines' },
     ],

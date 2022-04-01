@@ -5,7 +5,7 @@ import ImageZoom from "react-image-zooom";
 const Customcarousel = (photos) => {
 
     return (
-        <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false}>
+        <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false} showStatus={false}>
             {photos['photos'].map((link) => {
                 return <ImageZoom src={link} alt="sudadera" zoom="250"/>;
             })}
