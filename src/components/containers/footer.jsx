@@ -5,8 +5,7 @@ const Footer = () => {
     return (
         <div className='footer'>
            <div className='footer-content'>
-               <h2>Hola</h2>
-               <h4>que tal</h4>
+               <h2>2022® Diseños por @oruZCreates Website por @Maru_null</h2>
            </div>
         </div>
     );

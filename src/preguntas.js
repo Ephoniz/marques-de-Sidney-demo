@@ -3,7 +3,7 @@ const questions = [
       id: 1,
       title: '¿Qué es Marqués de Sidney?',
       info:
-        'Marqués de Sidney es una marca ficticia inspirada por Knekro en la que podrás encontrar varios productos ficticios inspirados por él y su comunidad.',
+        'Marqués de Sidney es una marca ficticia inspirada por el conocido streamer Knekro en la que podrás encontrar varios productos ficticios basados tanto en él como en su comunidad.',
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const questions = [
       id: 4,
       title: '¿Cuándo estarán disponible los productos?',
       info:
-        'Al tratarse de concept arts, estos productos (o la mayoría) no estarán a la venta nunca, a no ser que Sergio (Knekro) se ponga en contacto con nosotros y quiera poner este proyecto en marcha, para lo cual estamos más que dispuestos.',
+        'Al tratarse de concept arts, estos productos (o la mayoría) no estarán a la venta nunca, a no ser que Knekro se ponga en contacto con nosotros y quiera poner este proyecto en marcha, para lo cual estamos más que dispuestos.',
     },
     {
       id: 8,

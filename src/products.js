@@ -6,7 +6,7 @@ const products = [
         unidades: [
             { 
                 id: 0,
-                name: "gachapon",
+                name: "Gachapon Wey",
                 price : 99.99,
                 PrimaryPhotos: ["https://images-ext-2.discordapp.net/external/U54E_hdCTJN1hQJIMaeSVq6fX6uvLU95-O5Y8GDUDk0/https/i.imgur.com/ANr2keG.jpg",
                 "https://images-ext-1.discordapp.net/external/TCuX4FoXRzhyBqGtAba56HfDhZwx4FMOR1aJVZO1LZU/https/i.imgur.com/Zlr9c2R.jpg",
@@ -31,7 +31,7 @@ const products = [
         unidades: [
             { 
                 id: 1,
-                name: "God ariety",
+                name: "God Variety",
                 price : 99.99,
                 black: ["https://images-ext-2.discordapp.net/external/_nHLOlS4qRMSWq4DCDhozNyvwWDCSIfs0xy9eZcze9Q/https/i.imgur.com/tYH5Fti.jpg",
                 "https://images-ext-2.discordapp.net/external/ah3DdkIpmoeO8HZAhdcdBUqqavFLdmLBA7Jm3PU9lEQ/https/i.imgur.com/8wQFdbp.jpg",
@@ -97,7 +97,7 @@ const products = [
         unidades: [
             { 
                 id: 3,
-                name: "Peepopines",
+                name: "peepoPines",
                 price : 99.99,
                 photos: ["https://images-ext-1.discordapp.net/external/rhAEsM2_7WnA3uSbOK00PfN_SHeox0DRWiomp0cjEYE/https/i.imgur.com/XSqqa42.jpg",
                 "https://images-ext-2.discordapp.net/external/8mpdDfg11CwvOltTtiCit8XOF_NLtsWClKcQZLxJfaU/https/i.imgur.com/rwLueh3.jpg",
