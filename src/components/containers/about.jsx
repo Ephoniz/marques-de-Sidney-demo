@@ -1,10 +1,13 @@
 import React from 'react';
 import '../../styles/about_syle.scss';
 import { AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai';
+import { useGlobalContext } from './context';
 
 const About = () => {
+    const {closeSubmenu} = useGlobalContext();
+
     return (
-        <section className='about-page'>
+        <section className='about-page' onMouseOver={closeSubmenu}>
             <div className="cards-container">
                 <div className='profile-card'>
                     <img alt="Ivan" src="https://media.discordapp.net/attachments/370170882087190540/959250218304569385/Web_-_Presentacion_oruZ.png"/>
