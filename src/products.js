@@ -21,7 +21,7 @@ const products = [
                 colors: ["green"],
                 sizes: ["S", "M", "L", "XL", "XXL"],
                 size_description: "https://images-ext-1.discordapp.net/external/ce4AxK-DmyN-LpwxZMDyUQad6J8Haz57GMa6x4Srglc/https/i.imgur.com/WO5tY2n.png",
-                info: "MENSAJE INFORMATIVO"
+                info: "Camiseta manga corta, vinilada en alta calidad, con diseño inspirado en el Dios de internet. Máquina de gachapón no incluida."
              }
         ]
     },
@@ -31,7 +31,7 @@ const products = [
         unidades: [
             { 
                 id: 1,
-                name: "god variety",
+                name: "God ariety",
                 price : 99.99,
                 black: ["https://images-ext-2.discordapp.net/external/_nHLOlS4qRMSWq4DCDhozNyvwWDCSIfs0xy9eZcze9Q/https/i.imgur.com/tYH5Fti.jpg",
                 "https://images-ext-2.discordapp.net/external/ah3DdkIpmoeO8HZAhdcdBUqqavFLdmLBA7Jm3PU9lEQ/https/i.imgur.com/8wQFdbp.jpg",
@@ -47,10 +47,11 @@ const products = [
                 colors: ["white", "black"],
                 sizes: ["S", "M", "L", "XL", "XXL"],
                 size_description: "https://images-ext-1.discordapp.net/external/APBFMlL_kkOH16nqAevU0vS8FevH-DrAFZCd77K-uak/https/i.imgur.com/eAirq0A.png",
-                info: "MENSAJE INFORMATIVO"
+                info: "Sudadera sin capucha, vinilada en alta calidad, con diseño inspirado en el Dios de la variedad. Diseñado por y para malitos."
              }
         ]
     },
+
     {
         modelo: "sudadera",
         unidades: [
@@ -87,7 +88,24 @@ const products = [
                 colors: ["white", "blue", "pink", "nude"],
                 sizes: ["S", "M", "L", "XL", "XXL"],
                 size_description: "https://images-ext-1.discordapp.net/external/e6PtWiz0fUwC3Z886d0egE8quxeVpNJPjAeiuYgBfdE/https/i.imgur.com/Of8WhBF.png",
-                info: "MENSAJE INFORMATIVO"
+                info: "Sudadera con capucha, vinilada en alta calidad, con diseño inspirado en la trayectoria de Kenkro. Para vestir como un pro."
+             }
+        ]
+    },
+    {
+        modelo: "pines",
+        unidades: [
+            { 
+                id: 3,
+                name: "Peepopines",
+                price : 99.99,
+                photos: ["https://images-ext-1.discordapp.net/external/rhAEsM2_7WnA3uSbOK00PfN_SHeox0DRWiomp0cjEYE/https/i.imgur.com/XSqqa42.jpg",
+                "https://images-ext-2.discordapp.net/external/8mpdDfg11CwvOltTtiCit8XOF_NLtsWClKcQZLxJfaU/https/i.imgur.com/rwLueh3.jpg",
+                "https://images-ext-2.discordapp.net/external/rSMdJVm84FIBheNpc6ajp2jGoS_g_gJJDlQ1U4VFg4s/https/i.imgur.com/rdfZsGU.jpg"
+                ],
+                type: "pines",
+                pines: ["Peepoclown (dorado)", "EZ", "PeepoSad", "Bedge", "PeepoShy", "PepegaCredit", "PeepoHappy", "PeepoSad", "Prayge"],
+                info: "Pin esmaltado de alta calidad, con diseño inspirado en el Dios de internet. Disponible también por puntos del canal peepoClown."
              }
         ]
     }

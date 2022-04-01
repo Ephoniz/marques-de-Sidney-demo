@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 25px;
 }
 
@@ -28,6 +28,14 @@
 
     .text-info {
         min-height: 350px;
+        max-width: 450px;
+        margin-right: 10px;
+    }
+
+    .informacion{
+        font-size: 15px;
+        width: 100%;
+        margin-right: 0;
     }
 }
 
@@ -56,6 +64,10 @@
 
     .blue{
         background: #a0b6d1;
+    }
+
+    .green{
+        background: #69bc80;
     }
 
     svg {
@@ -91,6 +103,7 @@ label.coolbox {
 
     input:checked + span {
         font-weight: 800;
+        text-decoration: underline;
     }
 
     input:checked + svg {
@@ -125,6 +138,31 @@ label.coolbox:hover {
     background-color: white;
     color: black;
     box-shadow: 5px 5px 1px black;
+}
+
+.pines-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    label.coolbox {
+        width: 119px;
+        font-size: 18px;
+    }
+
+    .gold {
+        background: #ddcd8a;
+        border-color: #a78b4e;
+
+        span{
+            color: #a78b4e;
+        }
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -164,4 +202,23 @@ label.coolbox:hover {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .pines-container{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    
+        label.coolbox {
+            width: 80px;
+            padding-bottom: 0;
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        .row {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    
 }

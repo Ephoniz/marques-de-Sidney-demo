@@ -6,19 +6,22 @@ import React from 'react';
 const sublinks = [
   {
     page: 'Productos',
+    link: '#',
     links: [
-      { label: 'Camisetas', icon: <IoShirt />, url: '/camiseta' },
+      { label: 'Camiseta', icon: <IoShirt />, url: '/camiseta' },
       { label: 'Sudaderas', icon: <GiHoodie />, url: '/sudaderas' },
       { label: 'Pines', icon: <GiSafetyPin />, url: '/pines' },
     ],
   },
   {
     page: 'FAQs',
+    link: '/faqs',
     links: [
     ],
   },
   {
     page: 'About',
+    link: '/about',
     links: [
     ],
   },

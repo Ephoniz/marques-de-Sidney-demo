@@ -1,34 +1,49 @@
 const questions = [
     {
       id: 1,
-      title: 'Do I have to allow the use of cookies?',
+      title: '¿Qué es Marqués de Sidney?',
       info:
-        'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+        'Marqués de Sidney es una marca ficticia inspirada por Knekro en la que podrás encontrar varios productos ficticios inspirados por él y su comunidad.',
     },
     {
       id: 2,
-      title: 'How do I change my My Page password?',
+      title: '¿Quién ha hecho Marqués de Sidney?',
       info:
-        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+        'Marqués de Sidney es un pequeño proyecto desarrollado a nivel artístico por Iván (@oruZCreates) y a nivel web por Maruan (@Maru_null), amigos desde la ESO y knekrers de corazón.',
     },
     {
       id: 3,
-      title: 'What is BankID?',
+      title: '¿Hay más proyectos?',
       info:
-        'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+        "Podeís encontrar otros proyectos en el apartado 'About'.",
     },
     {
       id: 4,
-      title: 'Whose birth number can I use?',
+      title: '¿Cuándo estarán disponible los productos?',
       info:
-        'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+        'Al tratarse de concept arts, estos productos (o la mayoría) no estarán a la venta nunca, a no ser que Sergio (Knekro) se ponga en contacto con nosotros y quiera poner este proyecto en marcha, para lo cual estamos más que dispuestos.',
+    },
+    {
+      id: 8,
+      title: '¿uwu chat?',
+      info: 'uwu chat'
     },
     {
       id: 5,
-      title: 'When do I recieve a password ordered by letter?',
+      title: '¿Cuál es el objetivo del proyecto?',
       info:
-        'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+        ' Tanto diseñador como programador somos muy seguidores del contenido de Knekro desde hace mucho tiempo y cuándo oímos que estaba barajando la idea de sacar merchandising, creímos que sería buena oportunidad tanto para expresar este afecto como para, en el mejor de los casos, cubrir una necesidad como sería la de querer lanzar productos de manera oficial.',
     },
+    {
+      id: 6,
+      title: '¿Sacaréis más productos en un futuro?',
+      info: 'Nunca descartamos ninguna opción, este tipo de proyectos nos dan buena visibilidad y sirven para engrosar el portfolio, además de que cada proyecto es siempre un intento de colaborar con la persona a la que está destinada y poder lanzarlo de manera oficial.'
+    },
+    {
+      id: 7,
+      title: '¿Cuándo Hollow Knight?',
+      info: 'Cuando Knekro se mude.'
+    }
   ]
   export default questions
   

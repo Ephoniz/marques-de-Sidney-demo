@@ -8,6 +8,7 @@ import Camiseta from './components/containers/camiseta';
 import Sudaderas from './components/containers/sudaderas';
 import Sudadera from './components/containers/sudadera';
 import About from './components/containers/about';
+import Pines from './components/containers/pines';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='sudaderas' element={<Sudaderas/>}/>
             <Route path='/sudadera/:id' element={<Sudadera/>}/>
             <Route path='about' element={<About/>}/>
+            <Route path='pines' element={<Pines/>}/>
           </Route>
         </Routes>
       </Router>
