@@ -58,7 +58,7 @@ const Navbar = () => {
                             </a>
                         </li>
                     </ul>
-                    <a className='compra'>
+                    <a className='compra' href='/404'>
                         <FaShoppingBasket/>
                     </a>
                 </div>

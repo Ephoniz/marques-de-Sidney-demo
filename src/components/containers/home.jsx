@@ -48,9 +48,9 @@ const Home = () => {
                         <p>PINES</p>
                         <h5>pEEpopin</h5>
 
-                        <button className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
+                        <Link to="/pines" className='call-to-action' onMouseEnter={() => setEstilo(true)} onMouseLeave={() => setEstilo(false)}>
                             Detalles
-                        </button>
+                        </Link>
                     </div>
                 </div>
         </Carousel>

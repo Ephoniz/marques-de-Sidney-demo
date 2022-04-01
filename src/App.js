@@ -9,6 +9,7 @@ import Sudaderas from './components/containers/sudaderas';
 import Sudadera from './components/containers/sudadera';
 import About from './components/containers/about';
 import Pines from './components/containers/pines';
+import Pagenotfound from './components/containers/pagenotfound';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path='/sudadera/:id' element={<Sudadera/>}/>
             <Route path='about' element={<About/>}/>
             <Route path='pines' element={<Pines/>}/>
+            <Route path='/*' element={<Pagenotfound/>} />
           </Route>
         </Routes>
       </Router>
